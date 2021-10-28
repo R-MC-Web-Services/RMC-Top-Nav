@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- Meta setup -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Title -->
+    <title>Randolph-Macon College :: Ashland, Virginia</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="top-nav-style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/zbf4qyj.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- alert-bar start -->
+    <div class="alert-bar">
+      <p><a tabindex="1" href="#">Learn how R-MC is Protecting the Hive.</a></p>
+    </div>
+    <!-- alert-bar end -->
+
+    <!-- header-area start -->
+    <header class="header-area">
+      <div class="container">
+        <div class="header-item">
+          <div class="header-item-inner">
+            <!-- hamburger menu icon -->
+            <i id="mobile-menu-toggle" tabindex="9.0" class="fas fa-bars"></i>
+            <a href="#" tabindex="10">
+              <img
+                id="rmc-logo"
+                src="https://www.rmc.edu/images/default-source/marketing-communications-images/logos/r-mc_logo_horiz_rgb_rev.svg"
+                alt="Randolph-Macon College Logo"
+                title="Randolph-Macon College Logo"
+            /></a>
+          </div>
+          <div class="header-item-primary-nav">
+            <ul>
+              <li>
+                <a tabindex="10.1" href="#" class="first-row-nav-link"
+                  >Athletics</a
+                >
+              </li>
+              <li>
+                <a tabindex="10.2" href="#" class="first-row-nav-link"
+                  >Refer a Yellow Jacket</a
+                >
+              </li>
+              <li>
+                <a tabindex="10.3" href="#" class="first-row-nav-link"
+                  >Alumni</a
+                >
+              </li>
+              <li>
+                <a tabindex="10.4" href="#" class="first-row-nav-link"
+                  >Give Now</a
+                >
+              </li>
+              <li>
+                <a tabindex="10.5" href="#" class="first-row-nav-link">Visit</a>
+              </li>
+              <li>
+                <div id="search-container">
+                  <div
+                    id="search"
+                    class="search"
+                    data-action="https://search.rmc.edu/websearch.aspx?searchStr="
+                  >
+                    <label class="visible" for="query">
+                      <span>Search:</span>
+                      <input
+                        id="query"
+                        name="q"
+                        placeholder="Search..."
+                        type="text"
+                        value=""
+                      />
+                    </label>
+                    <button>Go</button>
+                  </div>
+                </div>
+
+                <!-- end search -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- These are used in the mobile menus -- Mobile Menu Start -->
+      <div id="secondary-mobile-menu" class="mobile-menu">
+        <!-- close icon -->
+
+        <!-- <i class="close-mobile-menu" tabindex="20.0" class="fas fa-times"></i> -->
+
+        <div class="mobile-menu-inner">
+          <ul>
+            <li>
+              <a tabindex="20.1" href="#" class="second-row-nav-link"
+                >Athletics</a
+              >
+            </li>
+            <li>
+              <a tabindex="20.2" href="#" class="second-row-nav-link"
+                >Refer a Yellow Jacket</a
+              >
+            </li>
+            <li>
+              <a tabindex="20.3" href="#" class="second-row-nav-link">Alumni</a>
+            </li>
+            <li>
+              <a tabindex="20.4" href="#" class="second-row-nav-link"
+                >Give Now</a
+              >
+            </li>
+            <!-- <li><a tabindex="20.5" href="#" class="second-row-nav-link">News &amp; Calendar</a></li> -->
+            <li>
+              <a tabindex="20.6" href="#" class="apply-nav-link">Visit</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile-menu-inner-yellow">
+          <ul>
+            <li>
+              <a tabindex="30.0" href="#" class="second-row-nav-link"
+                >Admissions &amp; Aid</a
+              >
+            </li>
+            <li>
+              <a tabindex="30.1" href="#" class="second-row-nav-link"
+                >About R-MC</a
+              >
+            </li>
+            <li>
+              <a tabindex="30.2" href="#" class="second-row-nav-link"
+                >Campus Life</a
+              >
+            </li>
+            <li>
+              <a tabindex="30.3" href="#" class="second-row-nav-link"
+                >Academics</a
+              >
+            </li>
+            <!-- <li><a href="#" class="second-row-nav-link">News &amp; Calendar</a></li> -->
+            <li>
+              <a tabindex="30.4" href="#" class="apply-nav-link apply-link"
+                >Apply</a
+              >
+            </li>
+          </ul>
+          <div class="close-mobile-menu">
+            <i class="fas fa-times"></i> Close Menu
+          </div>
+        </div>
+      </div>
+      <!-- menu-area start -->
+      <div class="menu-area">
+        <div class="container">
+          <div class="menu-item">
+            <!-- These are used in the desktop view -- Desktop Menu Start -->
+            <ul class="menu-container-ul">
+              <li>
+                <!-- <a tabindex="40.0" href="#" class="second-row-nav-link"
+                  >Admissions &amp; Aid
+                </a> -->
+
+                <!-- https://jsfiddle.net/maciej_p/eatv1b4b/18/ -->
+
+                <div class="dropdown reset-menu">
+                  <a
+                    class="btn second-row-nav-link main-links admissions"
+                    tabindex="40.0"
+                    href="https://www.rmc.edu/"
+                  >
+                    Admissions &amp; Aid
+                  </a>
+                  <a
+                    class="btn admissions-sub turn-off-block second-row-nav-link dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="40.1"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </a>
+                  <ul
+                    class="dropdown-menu rmc-dropdown dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Visit</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Applying to R-MC</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Tuition and Aid</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Request Info</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Check Application Status</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Enrollment Deposit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">EDGE Career Center</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <!-- <a
+                  tabindex="40.2"
+                  href="#"
+                  class="second-row-nav-link main-links"
+                  >About R-MC</a
+                > -->
+
+                <div class="dropdown reset-menu">
+                  <a
+                    class="btn about-rmc second-row-nav-link main-links"
+                    tabindex="40.0"
+                    href="https://www.rmc.edu/"
+                  >
+                    About R-MC
+                  </a>
+                  <a
+                    class="btn about-rmc-sub turn-off-block second-row-nav-link dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="40.1"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </a>
+                  <ul
+                    class="dropdown-menu rmc-dropdown dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">About R-MC</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Quick Facts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Location</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Visit Campus</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Purpose &amp; Vision</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >History of Randolph-Macon</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Offices &amp; Departments</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Four-Year Degree Guarantee</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">R-MC Alerts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Mission Statement</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Pre-Health Partnerships</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <!-- <a
+                  tabindex="40.3"
+                  href="#"
+                  class="second-row-nav-link main-links"
+                  >Campus Life</a
+                > -->
+                <div class="dropdown reset-menu">
+                  <a
+                    class="btn campus-life second-row-nav-link main-links"
+                    tabindex="40.0"
+                    href="https://www.rmc.edu/"
+                  >
+                    Campus Life
+                  </a>
+                  <a
+                    class="btn campus-life-sub turn-off-block second-row-nav-link dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="40.1"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </a>
+                  <ul
+                    class="dropdown-menu rmc-dropdown dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Campus Life</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Office of Student Life</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Office of Multicultural Affairs</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Fraternity &amp; Sorority Life</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Leadership</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">SERVE</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Student Government Association</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Student Organizations</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">eSports</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Show Choir</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Student Health Cnter</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Campus Store</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Dining Services</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Campus Safety</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Counseling Services</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Residence Life</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Commuter Life</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Protect the Hive</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <!--<a
+                  tabindex="40.4"
+                  href="#"
+                  class="second-row-nav-link main-links"
+                  >Academics</a
+                >
+              </li>-->
+
+                <div class="dropdown reset-menu academics-nav-container">
+                  <a
+                    class="btn academics second-row-nav-link main-links"
+                    tabindex="40.0"
+                    href="https://www.rmc.edu/"
+                  >
+                    Academics
+                  </a>
+                  <a
+                    class="btn academics-sub turn-off-block second-row-nav-link dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    tabindex="40.1"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </a>
+                  <ul
+                    class="dropdown-menu rmc-dropdown dropdown-menu-end"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">Majors &amp; Minors</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">McGraw-Page Library</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Honors Program</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Nursing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Physician Assistant Studies</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Study Abroad</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Academic Support</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Undergraduate Research (SURF)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Internships</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Registrar</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- <li><a tabindex="40.4" href="#" class="second-row-nav-link">News &amp; Calendar</a></li> -->
+              </li>
+
+              <li>
+                <a
+                  tabindex="40.5"
+                  href="#"
+                  class="apply-nav-link apply-link main-links"
+                  >Apply</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- These are used in the desktop view -- Desktop Menu End -->
+        </div>
+      </div>
+      <!-- menu-area end -->
+    </header>
+    <!-- header-area end -->
+
+    <!-- content-area start -->
+    <section class="content-area">
+      <div class="content-item">
+        <!-- <img src="https://dummyimage.com/1440x752/aabbcc/fff" alt="" /> -->
+
+        <!-- carousel begin -->
+
+        <div
+          id="carouselIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://picsum.photos/id/237/1440/752"
+                class="d-block w-100"
+                alt="description here"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/221/1440/752"
+                class="d-block w-100"
+                alt="description here"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://picsum.photos/id/222/1440/752"
+                class="d-block w-100"
+                alt="description here"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- carousel end -->
+      </div>
+      <div class="container">
+        <div class="content-edgebox">
+          <div class="content-edgebox-inner">
+            <h2>Here’s how Randolph-Macon gives you the EDGE.</h2>
+            <p>
+              At Randolph-Macon College, the EDGE Career Center provides you
+              with a personalized, four-year plan that assures you a competitive
+              advantage in the marketplace or when applying to graduate school.
+            </p>
+          </div>
+          <div class="content-edgebox-buttons-container">
+            <div class="content-edgebox-buttons">
+              <h2>Career Preparation</h2>
+            </div>
+            <div class="content-edgebox-buttons">
+              <h2>Internships</h2>
+            </div>
+            <div class="content-edgebox-buttons">
+              <h2>Alumni Networking</h2>
+            </div>
+            <div class="content-edgebox-buttons">
+              <h2>Get Started!</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content-area end -->
+
+    <script
+      src="https://kit.fontawesome.com/4c853e46fd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      /* This needs <enter> keypress event too. */
+      $(".header-item-inner .fa-bars").click(function () {
+        $(".mobile-menu").addClass("for-menu");
+        return false;
+      });
+
+      /* This needs <enter> keypress event too. */
+      $(".close-mobile-menu").click(function () {
+        $(".mobile-menu").removeClass("for-menu");
+        return false;
+      });
+
+      /* JQuery toggle of mega flyout hover */
+      /* Admissions ----------------------- */
+      $(".admissions").hover(function () {
+        $(".admissions-sub").dropdown("show");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("hide");
+      });
+      $(".admissions").focus(function () {
+        $(".admissions-sub").dropdown("show");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("hide");
+      });
+      /* About ----------------------- */
+      $(".about-rmc").hover(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("show");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("hide");
+      });
+      $(".about-rmc").focus(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("show");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("hide");
+      });
+      /* Campus Life ----------------------- */
+      $(".campus-life").hover(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("show");
+        $(".academics-sub").dropdown("hide");
+      });
+      $(".campus-life").focus(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("show");
+        $(".academics-sub").dropdown("hide");
+      });
+      /* Academics ----------------------- */
+      $(".academics").hover(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("show");
+      });
+      $(".academics").focus(function () {
+        $(".admissions-sub").dropdown("hide");
+        $(".about-rmc-sub").dropdown("hide");
+        $(".campus-life-sub").dropdown("hide");
+        $(".academics-sub").dropdown("show");
+      });
+      /* JQuery toggle of mega flyout hover / focus ----- END*/
+
+      /* Site search JQuery ---------- BEGIN */
+      (function ($) {
+        var $sp = $("#search");
+        var $q = $sp.find(":text");
+        var $btn = $sp.find("button");
+
+        $btn.on("click", function (e) {
+          e.preventDefault();
+
+          $sp.toggleClass("open");
+
+          if ($sp.hasClass("open")) {
+            $q.unbind()
+              .focus()
+              .add(document)
+              .on("keydown.search", _WatchSearchBox);
+
+            $sp.on("click.search", false);
+
+            $(document).one("click.search", function (e) {
+              $btn.click();
+            });
+          } else {
+            $q.blur().val("").add(document).add($sp).off(".search");
+          }
+
+          return false;
+        });
+
+        function _WatchSearchBox(e) {
+          if ($(e.currentTarget).is($q)) {
+            e.stopImmediatePropagation();
+          }
+
+          switch (e.which) {
+            case 13:
+              var q = $q.val();
+              if (!q || !$.trim(q)) return false;
+              location.href = $sp.attr("data-action") + escape(q);
+              break;
+            case 27:
+              $btn.click();
+              break;
+            default:
+              break;
+          }
+        }
+      })(jQuery);
+      /* Site search JQuery ---------- END */
+    </script>
+  </body>
+</html>
