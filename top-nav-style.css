@@ -335,11 +335,13 @@ button:focus {
 }
 
 .content-edgebox-inner {
-  width: 45%;
+  max-width: 45%;
+  /*border: 1px solid pink;*/
   /*! padding-right: 15px; */
 }
 
-.content-edgebox-inner h2 {
+.content-edgebox-inner h2,
+.content-edgebox-inner h1 {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 48px;
@@ -373,6 +375,13 @@ button:focus {
   justify-content: center;
   background: var(--primary-light-bg);
   margin-bottom: 32px;
+  text-decoration: none;
+}
+
+.content-edgebox-buttons:focus,
+.content-edgebox-buttons:hover {
+  background: #fff;
+  text-decoration: none;
 }
 
 .content-edgebox-buttons h2 {
@@ -557,7 +566,7 @@ button:focus {
   }
 
   .header-item-inner img#rmc-logo {
-    max-width: 250px;
+    max-width: 105%;
     padding: 0 0.15em 0.35em 0;
     margin: 0 0.25em 0.45em 0;
     /*border: 1px solid green;*/
@@ -590,20 +599,25 @@ button:focus {
   .content-edgebox {
     padding-top: 17px;
     padding-bottom: 30px;
+    /*border: 1px solid green;*/
   }
 
   .content-edgebox-inner {
     width: 100%;
+    max-width: 100%;
+    /*border: 1px solid red;*/
   }
 
-  .content-edgebox-inner h2 {
+  .content-edgebox-inner h2,
+  .content-edgebox-inner h1 {
     font-size: 36px;
     margin: 0 0 11px;
   }
 
   .content-edgebox-inner p {
     margin-bottom: 40px;
-    max-width: 309px;
+    max-width: 100%;
+    /*border: 1px solid pink;*/
   }
 
   .content-edgebox-buttons-container {
