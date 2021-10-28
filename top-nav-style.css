@@ -491,7 +491,7 @@ button:focus {
 }
 
 /* ---- Small Screen - iPads ---- */
-
+/*
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #secondary-mobile-menu {
     z-index: 2;
@@ -531,10 +531,11 @@ button:focus {
     margin-top: 30px;
   }
 }
-
+*/
 /* ---- Small Screen - Mobile ---- */
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px)*/
+@media screen and (max-width: 991px) {
   .search {
     position: absolute;
     top: 3.7em;
